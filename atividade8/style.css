@@ -1,0 +1,149 @@
+body {
+    font-family: "Verdana", sans-serif;
+    background-color: #fdfdfd;
+    background-image: url("img/bg1.jpg");
+}
+
+fieldset {
+    border: 1px solid goldenrod;
+    border-radius: 8px;
+}
+
+#formulario {
+    width: 40%;
+    margin: auto;
+    color: #383838;
+    background-color: white;
+    border-radius: 10px;
+    padding: 80px;
+    box-shadow: goldenrod 0px 2px 15px;
+}
+
+#subtitulo {
+    font-size: 15px;
+    margin: 0 0 30px 0;
+    color: rgba(218, 165, 32, 0.507);
+    text-align: center;
+}
+
+#titulo {
+    margin: 0 0 30px 0;
+    color: #383838;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.golden {
+    color: goldenrod;
+}
+
+.red {
+    color: red;
+}
+
+.div-input {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top : -1px;
+    margin-bottom: -5px;
+    text-align: left;
+}
+
+.div-input label {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.div-input input {
+    width: 95%;
+    height: 33px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: rgba(218, 165, 32, 0.507) 1px solid;
+    background-color: rgba(218, 165, 32, 0.041);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.anexo {
+    width: 95%;
+    height: 33px;
+    border-radius: 5px;
+    border: goldenrod 1px solid;
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.anexo label {
+    vertical-align: middle;
+}
+
+.anexo:hover {
+    color: goldenrod;
+    background-color: white;
+}
+
+
+#botao {
+    text-align: center;
+}
+
+#enviar {
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    width: 30%;
+    float: right;
+    margin-left: 5px;
+}
+
+#enviar:hover {
+    opacity: 0.7;
+}
+
+.div-select {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top : -1px;
+    margin-bottom: -5px;
+    text-align: left;
+}
+
+.div-select label {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.div-select select {
+    width: 95%;
+    height: 33px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: rgba(218, 165, 32, 0.507) 1px solid;
+    background-color: rgba(218, 165, 32, 0.041);
+}

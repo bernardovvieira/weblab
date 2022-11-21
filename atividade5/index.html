@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weblab | Atividade 5</title>
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">  
+    </head>
+    <body>
+
+        <div id="formulario">
+            <h1 id="subtitulo">WEBLAB</h1>
+            <h2 id="titulo">FORMULÁRIO HTML/CSS</h2>
+            <p id="paragrafo">Formulário modelo de submissão de trabalhos para um evento. Criado e estilizado por <b>Bernardo Vivian Vieira</b> para a aula do dia 18 de abril de 2022.</p>
+            <br>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend><b>AUTORES</b></legend>
+                    <br>
+                    <div class="div-input">
+                        <label for="nome"><b>Nome:</i></b></label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div class="div-input">
+                        <label for="cpf"><b>CPF (apenas números):</i></b></label>
+                        <input type="number" name="cpf" id="cpf">
+                    </div>
+                    <div class="div-input">
+                        <label for="autor2"><b>Autor 2:</i></b></label>
+                        <input type="text" name="autor2" id="autor2">
+                    </div>
+                    <div class="div-input">
+                        <label for="autor3"><b>Autor 3:</i></b></label>
+                        <input type="text" name="autor3" id="autor3">
+                    </div>
+                    <div class="div-input">
+                        <label for="autor4"><b>Autor 4:</i></b></label>
+                        <input type="text" name="autor4" id="autor4">
+                    </div>
+                    <div class="div-input">
+                        <label for="autor5"><b>Autor 5:</i></b></label>
+                        <input type="text" name="autor5" id="autor5">
+                    </div>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend><b>DADOS DO TRABALHO</b></legend>
+                    <br>
+                    <div class="div-input">
+                        <label for="titulo-i"><b>Título:</i></b></label>
+                        <textarea name="titulo-i" id="titulo-i"></textarea>
+                    </div>
+                    <div class="div-input">
+                        <label for="area"><b>Área do conhecimento:</i></b></label>
+                        <input type="text" name="area" id="area">
+                    </div>
+                    <div class="div-input">
+                        <label for="palavras"><b>Palavras-chave:</i></b></label>
+                        <input type="text" name="palavras" id="palavras">
+                    </div>
+                    <div class="div-input">
+                        <label for="modalidade"><b>Modalidade:</b></label>
+                    </div>
+                    <div class="radio-b">
+                        <input type="radio" name="modalidade" id="resumo" value="resumo">Resumo
+                        <br> 
+                        <input type="radio" name="modalidade" id="completo" value="completo">Completo
+                    </div>
+                    <div class="div-input">
+                        <label for="tipo"><b>Tipo:</b></label>
+                    </div>
+                    <div class="radio-b">
+                        <input type="radio" name="tipo" id="graduacao" value="graduacao">Graduação
+                        <br> 
+                        <input type="radio" name="tipo" id="pos-graduacao" value="pos-graduacao">Pós-graduação
+                        <br>
+                        <input type="radio" name="tipo" id="outros" value="outros">Outros
+                    </div>
+                    <div class="div-input">
+                        <label for="apresentacao"><b>Apresentação:</b></label>
+                    </div>
+                    <div class="radio-b">
+                        <input type="checkbox" name="apresentacao" id="oral" value="oral">Oral
+                        <br>
+                        <input type="checkbox" name="apresentacao" id="poster" value="poster">Pôster
+                    </div>
+                    <div class="div-input">
+                        <label for="arquivo"><b>Envio de Arquivos:</b></label>
+                    </div>
+                    <div class="radio-b">
+                        <label for="anexo" class="anexo"><b>ANEXO</b></label> (Tamanho máximo 2.0 Mb)
+                        <input type="file" name="anexo" id="anexo">
+                    </div>
+                </fieldset>
+
+                <br><br><br>
+
+                <div id="botao">
+                    <input type="reset" name="enviar" id="enviar" value="Limpar">
+                    <input type="button" name="enviar" id="enviar" value="Enviar">
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>

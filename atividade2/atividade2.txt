@@ -1,0 +1,55 @@
+Aula 21/03/2022 - 28/03/2022 - Bernardo Vivian Vieira
+
+Atividade 2:
+
+1. /usr/sbin/adduser user2
+
+2. nano texto.txt  
+   chmod 747 texto.txt 
+
+3. su user2
+
+4. nano exemplo.txt
+
+5. mv exemplo.txt meuarquivo.txt
+
+6. chmod 747 meuarquivo.txt
+
+7. exit
+
+8. su debian
+
+9. ln -s /home/user2/meuarquivo.txt soft.txt
+
+10. ln /home/user2/meuarquivo.txt hard.txt
+
+11. (SOFT) Se o arquivo original (/home/user2/meuarquivo.txt) for apagado, os links criados 
+não funcionarão mais. Resulta num arquivo inexistente.
+
+12. (HARD) Se o arquivo original (/home/user2/meuarquivo.txt) for apagado, os links criados
+não serão afetados, pois o arquivo continuará logicamente presente. Resulta no conteúdo do
+arquivo original.
+
+13. su root
+
+14. apt-get install apache2
+
+14. systemctl status apache2.service
+
+15. ifconfig, resultando no IP 192.168.56.101
+
+16. O servidor fica disponível on-line; apresenta-se a primeira página web com informações do Apache2. Captura de tela anexada ao Moodle (captura1.png).
+
+17. systemctl stop apache2.service     -- Encerra o funcionamento do serviço Apache2
+    systemctl start apache2.service    -- Inicia o funcionamento do serviço Apache2
+    systemctl restart apache2.service  -- Reinicia o funcionamento do serviço Apache2
+    systemctl reload apache2.service   -- Recarrega o funcionamento do serviço Apache2
+    systemctl disable apache2.service  -- Desabilita o serviço Apache2 (não iniciar automaticamente)
+    systemctl enable apache2.service   -- Habilita o serviço Apache2 (iniciar automaticamente)
+
+
+
+
+
+
+

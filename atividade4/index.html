@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weblab | Atividade 4</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>ATIVIDADE 4 (Formulário)</h2>
+    <span><b>Bernardo Vivian Vieira</b></span><br>
+    <span>04/04/2022 - 11/04/2022</span><br>
+    
+    <hr>
+    <br>
+
+    <form action="#">
+        <fieldset class="fieldset-1">
+
+            <legend>Autores</legend>
+            <br>
+
+            <div class="input-nome-custom">
+                <label for="nome"><b>Nome:</b></label>
+                <input type="text">
+            </div>
+            <br>
+            <div class="input-cpf-custom">
+                <label for="cpf"><b>&nbsp&nbspCPF:</b></label>
+                <input type="number">
+            </div>
+            <br>
+            <div class="input-custom">
+                <label for="autor2"><b>Autor 2:</b></label>
+                <input type="text">
+            </div>
+            <br>
+            <div class="input-custom">
+                <label for="autor3"><b>Autor 3:</b></label>
+                <input type="text">
+            </div>
+            <br>
+            <div class="input-custom">
+                <label for="autor4"><b>Autor 4:</b></label>
+                <input type="text">
+            </div>
+            <br>
+            <div class="input-custom">
+                <label for="autor5"><b>Autor 5:</b></label>
+                <input type="text">
+            </div>
+
+        </fieldset>
+    </form>
+    
+    <form action="#">
+        <fieldset class="fieldset-2">
+
+            <legend>Dados do trabalho</legend>
+            <br>
+
+            <div class="input-titulo-custom">
+                <label for="titulo"><b>Título:</b></label>
+                <textarea></textarea>
+            </div>
+            <br>
+            <div class="input-area-custom">
+                <label for="area-do-conhecimento"><b>Área do conhecimento:</b></label>
+                <input type="text" name="area-do-conhecimento" id="area-do-conhecimento">
+            </div>
+            <br>
+            <div class="input-palavras-custom">
+                <label for="palavras-chave"><b>Palavras-chave:</b></label>
+                <input type="text" name="palavras-chave" id="palavras-chave">
+            </div>
+            <br>
+            <div class="">
+                <label for="modalidade"><b>Modalidade:</b></label>
+                <input type="radio" name="modalidade" id="resumo" value="resumo">Resumo 
+                <input type="radio" name="modalidade" id="completo" value="completo">Completo
+            </div>
+            <br>
+            <div class="">
+                <label for="tipo"><b>Tipo:</b></label>
+                <input type="radio" name="tipo" id="graduacao" value="graduacao">Graduação 
+                <input type="radio" name="tipo" id="pos-graduacao" value="pos-graduacao">Pós-graduação
+                <input type="radio" name="tipo" id="outros" value="outros">Outros
+            </div>
+            <br>
+            <div class="">
+                <label for="apresentacao">Apresentação:</label>
+                <input type="checkbox" name="apresentacao" id="oral" value="oral">Oral
+                <input type="checkbox" name="apresentacao" id="poster" value="poster">Pôster
+            </div>
+            <br>
+            <div class="">
+                <input type="file" name="arquivo" id="arquivo"> (Tamanho máximo 2.0 Mb)
+            </div>
+            <br>
+            <div class="input-botao">
+                <input type="button" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+.fieldset-1 {
+  width: 600px;
+  height: 270px;
+  margin-top: 5px;
+}
+
+.fieldset-2 {
+  width: 600px;
+  height: 370px;
+  margin-top: 5px;
+}
+
+.input-custom input {
+    margin-left: 5px;
+    width: 400px;
+}
+
+.input-nome-custom input {
+    margin-left: 3px;
+    width: 400px;
+}
+
+.input-cpf-custom input {
+    margin-left: 5px;
+    width: 250px;
+}
+
+.input-titulo-custom textarea {
+    margin-left: 5px;
+    width: 410px;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.input-area-custom input {
+    margin-left: 4px;
+    width: 300px;
+}
+
+.input-palavras-custom input {
+    margin-left: 4px;
+    width: 350px;
+}
+
+.input-botao input {
+   left: 35%; 
+   position: relative;
+}

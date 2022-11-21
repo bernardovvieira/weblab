@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weblab | Atividade 7</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
+</head>
+<body>
+    
+    <h3>EXERCÍCIOS DE JAVASCRIPT (JS)</h3>
+    <hr><br>
+
+    <form>
+        <fieldset>
+            <legend>Caixas de Alerta</legend>
+            <br>
+            <span>Por favor, informe seu nome e, posteriormente, suas notas para obter a média final.</span>
+            <br><br>
+            <label for="nome"><b>Informe o seu nome:</b></label>
+            <input type="text" name="nome" id="nome">
+            <br><br>
+            <input type="submit" onclick="mediaEscolar()" value="Calcular">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Manipulação de String</legend>
+            <br>
+            <span>Por favor, informe uma string para obter os resultados. <i>Exemplo: Maçã, Banana e Goiaba</i></span>
+            <br><br>
+            <input type="submit" id="string" onclick="manipulacaoString()" value="Inserir String">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Manipulação de Horários</legend>
+            <br>
+            <span>Por favor, clique no botão para exibir a data:</span>
+            <br><br>
+            <input type="submit" onclick="data()" value="Exibir">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Manipulação de Dados</legend>
+            <br>
+            <span>Por favor, informe o ano do seu nascimento para ver sua idade.</span>
+            <br><br>
+            <label for="nasc"><b>Informe o ano de nascimento (0000):</b></label>
+            <input type="number" name="nasc" id="nasc">
+            <br><br>
+            <input type="submit" onclick="idade()" value="Calcular">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Adivinhe o Número</legend>
+            <br>
+            <span>Estou pensando num numero entre 0 e 100... Adivinhe qual é!</span>
+            <br><br>
+            <label for="numero"><b>Escreva o número:</b></label>
+            <input type="number" name="numero" id="numero">
+            <br><br>
+            <input type="submit" onclick="nume()" value="Tentar">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Cálculo de IMC</legend>
+            <br>
+            <label for="peso"><b>Informe o peso (Kg):</b></label>
+            <br>
+            <input type="number" name="peso" id="peso">
+            <br><br>
+            <label for="nasc"><b>Informe a altura (cm):</b></label>
+            <br>
+            <input type="number" name="altura" id="altura">
+            <br><br>
+            <input type="submit" onclick="imc()" value="Clique-me">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

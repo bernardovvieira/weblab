@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weblab | Atividade 8</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <br><br>
+
+    <div id="formulario">
+        <h1 id="subtitulo">WEBLAB</h1>
+        <h2 id="titulo">SUBMISSÃO DE TRABALHO</h2>
+        <p><i><span class="golden">*</span> Campos obrigatórios</i></p>
+        <br>
+
+        <form action="#" method="post" name="form" id="form">
+
+            <fieldset>
+                <legend><b>AUTORES</b></legend>
+                <br>
+                <div class="div-input">
+                    <label for="autor"><b>Autor principal: <span class="golden">*</span></i></b></label>
+                    <input type="text" name="autor" id="autor">
+                    <span class="red" id="ra"></span>
+                </div>
+                <div class="div-input">
+                    <label for="cpf"><b>CPF do autor principal: <span class="golden">*</span></i></b></label>
+                    <input type="number" name="cpf" id="cpf">
+                    <span class="red" id="rcpf"></span>
+                </div>
+                <div class="div-input">
+                    <label for="email"><b>E-mail: <span class="golden">*</span></i></b></label>
+                    <input type="email" name="email" id="email">
+                    <span class="red" id="remail"></span>
+                </div>
+                <div class="div-input">
+                    <label for="autor2"><b>Autor 2: <span class="golden">*</span></i></b></label>
+                    <input type="text" name="autor2" id="autor2">
+                    <span class="red" id="ra2"></span>
+                </div>
+                <div class="div-input">
+                    <label for="autor3"><b>Autor 3: <span class="golden">*</span></i></b></label>
+                    <input type="text" name="autor3" id="autor3">
+                    <span class="red" id="ra3"></span>
+                </div>
+                <div class="div-input">
+                    <label for="autor4"><b>Autor 4: <span class="golden">*</span></i></b></label>
+                    <input type="text" name="autor4" id="autor4">
+                    <span class="red" id="ra4"></span>
+                </div>
+                <div class="div-input">
+                    <label for="autor5"><b>Autor 5: <span class="golden">*</span></i></b></label>
+                    <input type="text" name="autor5" id="autor5">
+                    <span class="red" id="ra5"></span>
+                </div>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>DADOS DO TRABALHO</b></legend>
+                <br>
+                <div class="div-input">
+                    <label for="titulo"><b>Título: <span class="golden">*</span></i></b></label>
+                    <input type="text" name="tit" id="tit">
+                    <span class="red" id="rtit"></span>
+                </div>
+                <div class="div-input">
+                    <label for="area"><b>Área do conhecimento: <span class="golden">*</span></i></b></label>
+                    <input type="text" name="area" id="area">
+                    <span class="red" id="rarea"></span>
+                </div>
+                <div class="div-input">
+                    <label for="palavras"><b>Palavras-chave: <span class="golden">*</span></i></b></label>
+                    <input type="text" name="palav" id="palav">
+                    <span class="red" id="rp"></span>
+                </div>
+                <div class="div-select">
+                    <label for="modalidade"><b>Modalidade: <span class="golden">*</span></b></label>
+                    <select name="modalidade" id="modalidade">
+                        <option disabled selected value="">Selecione uma opção</option>
+                        <option value="Resumo">Resumo</option>
+                        <option value="Completo">Completo</option>                        
+                    </select>
+                    <span class="red" id="rmod"></span>
+                </div>
+                <div class="div-select">
+                    <label for="tipo"><b>Tipo: <span class="golden">*</span></b></label>
+                    <select name="tipo" id="tipo">
+                        <option disabled selected value="">Selecione uma opção</option>
+                        <option value="Graduação">Graduação</option>
+                        <option value="Pós-graduação">Pós-graduação</option>
+                        <option value="Outros">Outros</option>                        
+                    </select>
+                    <span class="red" id="rtipo"></span>
+                </div>
+                <div class="div-select">
+                    <label for="apresentacao"><b>Apresentação: <span class="golden">*</span></b></label>
+                    <select name="apresentacao" id="apresentacao">
+                        <option disabled selected value="">Selecione uma opção</option>
+                        <option value="Graduação">Oral</option>
+                        <option value="Pós-graduação">Pôster</option>                       
+                    </select>
+                    <span class="red" id="rapresentacao"></span>
+                </div>
+                <div class="div-input">
+                    <label for="arquivo"><b>Arquivo: <span class="golden">*</span></b></label>
+                </div>
+                <div class="radio-b">
+                    <label for="anexo" class="anexo"><b>ANEXO</b></label> (Tamanho máximo 2.0 Mb)
+                    <input type="file" name="anexo" id="anexo">
+                    <span class="red" id="ranexo"></span>
+                </div>
+            </fieldset>
+
+            <br><br><br>
+
+            <div id="botao">
+                <input type="reset" name="enviar" id="enviar" value="Limpar">
+                <input type="button" name="enviar" id="enviar" value="Enviar" onclick="valida_form();">
+            </div>
+            
+        </form>
+    </div>
+
+    <br><br>
+
+</body>
+</html>

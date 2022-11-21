@@ -1,0 +1,27 @@
+Login: root
+Pwd: toor
+
+Comandos...
+
+mkdir introducao_computacao
+cd introducao_computacao
+
+mkdir teoria
+cd teoria
+
+mkdir artigos
+mkdir material
+cd ..
+
+mkdir pratica
+cd pratica
+
+mkdir programao
+cd programacao
+
+mkdir bash
+mkdir python
+cd ..
+
+mkdir apostilas
+mkdir website

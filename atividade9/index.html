@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weblab | Atividade 9</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">    
+
+    <!-- Include jQuery Base Theme -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+
+    <!-- 1. Include com jQuery (Google CDN) e jQuery UI: -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+    <h2>Estudo das bibliotecas <b>jQuery</b> e <b>jQuery UI</b></h2>
+    <p>Bernardo Vivian Vieira</p><hr><br>
+
+    <h1>jQuery</h1>
+
+    <!-- 1. Inclusões ao código: -->
+    <h3>1. Inclusões ao código:</h3>
+    <p><b>Inclusão jQuery: </b><i>&lsaquo;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">&lsaquo;/script></i></p>
+    <p><b>Inclusão jQuery UI: </b><i>&lsaquo;script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js">&lsaquo;/script></i></p>
+    <p><b>Inclusão jQuery UI Base Theme: </b><i>&lsaquo;link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"></i></p>
+
+    <br>
+
+    <!-- 2. Seletores jQuery: -->
+    <h3>2. Seletores jQuery:</h3>
+    <p>Os seletores do jQuery permitem selecionar e manipular elementos HTML.</p>
+
+    <p><b>Exemplo (esconder/mostrar tags span): </b><span id="span1">texto em um span.</span></p>
+    <button id="esconder">Esconder</button>
+    <button id="mostrar">Mostrar</button>
+    <button id="vermelho">Cor: vermelho</button>
+    <button id="preto">Cor: preto</button>
+    
+    <br><br>
+
+    <!-- 3. Eventos jQuery: -->
+    <h3>3. Eventos jQuery:</h3>
+    <p>Os eventos do jQuery são métodos que recebem uma função como parâmetro, a qual é executada quando o evento ocorre.</p>
+
+    <p><b>Exemplo (passe o mouse sobre o botão):</b>
+        <button id="botao1">Elemento A</button>
+        <button id="botao2">Elemento B</button>
+    </p>
+    <p><b>Exemplo 2 (esconder o texto): </b><span id="span2">clique aqui para esconder o texto.</span></p> 
+
+    <br>
+
+    <!-- 4. Eventos jQuery: -->
+    <h3>4. Outros Recursos do jQuery:</h3>
+    <p>Recursos de animação em documentos HTML.</p>
+
+    <p><b>Exemplo: </b> <span id="span3">texto para testes dos recursos jQuery.</span></p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Toggle</button>
+    <button id="slide">Slide</button>
+    <button id="fade">Fade</button>
+    <button id="animate">Animate</button>
+
+    <br><br>
+
+    <!-- 5. jQuery Dinâmico: -->
+    <h3>5. jQuery Dinâmico:</h3>
+    <p>Edição dinâmica de elementos HTML com jQuery.</p>
+    <button id="btnAdicionar">Novo</button><br><br>
+    <table id="tblCadastro">         
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>E-mail</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <br>
+
+    <h1>jQuery UI</h1>   
+
+    <!-- 1. Questões gerais: -->
+    <h3>Questões gerais:</h3>
+
+    <p><b>O que é? </b> A biblioteca <i>jQuery UI</i> pode ser definida com um conjunto de widgets e componentes visuais pré-criados 
+    com jQuery para simplificar o desenvolvimento de páginas web, trazendo a possibilidade de customizar os estilos dos mesmos via 
+    temas.</p>
+    <p><b>Para o que serve? </b> A biblioteca proporciona abstrações de baixo nível de interação e animação, além de avançados
+    efeitos especiais de alto nível para construir aplicações web altamente interativas.</p>
+    <p><b>Qual a diferença para o jQuery padrão? </b> O jQuery é uma biblioteca de funções JavaScript que interage com o HTML, já 
+    o o jQuery UI é um conjunto de widgets e compenentes visuais pré-criados em jQuery com a possibilidade de customizar os estilos 
+    via temas.</p>
+
+    <br>
+
+    <!-- 2. Exemplos de recursos interativos e de interface: -->
+    <h3>2. 5 Exemplos de recursos interativos e de interface:</h3>
+
+    <p>1. Diálogo:</p>
+    <div id="dialogo" title="Basic dialog">
+        <p>Esse texto será aberto em uma caixa de diálogo.</p>
+    </div>
+    <button id="bdialogo">Clique aqui</button>
+
+    <br>
+
+    <p>2. Celendário:</p>
+    <input type="text" id="calend">
+
+    <br>
+
+    <p>3. Lista:</p>
+    <ul id="lista">
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+    </ul>
+
+    <br>
+
+    <p>4. Lista com <i>autocomplete</i>:</p>
+    <input id="frutas">
+
+    <br>
+
+    <p>5. "Arraste e solte":</p>
+    <div id="larg" class="ui-widget-header">
+        <p>Largue aqui</p>
+    </div>
+    <div id="arrastavel" class="ui-widget-content">
+        <p>Arraste-me</p>
+    </div>
+    
+    
+
+
+</body>
+</html>
